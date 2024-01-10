@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(100, 201, 99);
+    height: 70px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    gap: 100px;
+    display: flex;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.block1 {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn{
+    background-color: rgb(123, 199, 125);
+}
+
+.block1 p {
+    text-align: center;
+
+
+}
+
+
+.block1 .cell {
+
+    width: 40%;
+}
+
+.block1 .cell h1 {
+
+    font-size: 70px;
+}
+
+.sop {
+    display: flex;
+    justify-content: center;
+}
+
+.sop h1 {
+    font-size: 65px;
+}
+
+.functions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.function {
+    width: 300px;
+    height: 500px;
+    background-color: #74AC2B;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.function h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.mito {
+    width: 90%;
+    padding: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+    background: #FFFAFA;
+    box-shadow: 0px 0px 40px 5px #74AC2B;
+    gap: 50px;
+    align-items: center;
+}
+
+.mito p {
+    margin-top: 40px;
+
+}
+
+.mito img {
+    background-color: green;
+    padding: 20px;
+}
+
+
+.vakuol {
+    width: 90%;
+    padding: 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 40px;
+    background: #FFFAFA;
+    box-shadow: 0px 0px 40px 5px #74AC2B;
+    gap: 80px;
+    align-items: center;
+}
+
+
+.vakuol img {
+    background-color: green;
+    padding: 20px;
+}
+
+
+.vakuol p {
+    margin-top: 40px;
+
+}
+
+
+footer {
+background-color: #74AC2B;
+padding: 20px;
+}
